@@ -42,6 +42,31 @@ h1 {
     margin-right: 50px;
 }
 
+#education p, li{
+    margin: 5px;
+}
+
+#education ul{
+    margin: 0px;
+}
+
+#work{
+    border:1px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 450px;
+    margin-right: 50px;
+}
+
+#work p, li{
+    margin: 5px;
+}
+
+#work ul{
+    margin: 0px;
+}
+
 #research{
     border:1px;
     padding-top:20px;
@@ -49,6 +74,14 @@ h1 {
     margin-top: 0px;
     margin-left: 450px;
     margin-right: 50px;
+}
+
+#research p, li{
+    margin: 5px;
+}
+
+#research ul{
+    margin: 0px;
 }
 
 #project{
@@ -60,6 +93,14 @@ h1 {
     margin-right: 50px;
 }
 
+#project p, li{
+    margin: 5px;
+}
+
+#project ul{
+    margin: 0px;
+}
+
 #skills{
     border:1px;
     padding-top:20px;
@@ -69,21 +110,33 @@ h1 {
     margin-right: 50px;
 }
 
+#skills p, li{
+    margin: 5px;
+}
+
+#skills ul{
+    margin: 0px;
+}
+
 h2 {
     float: left;
     clear: left;
     text-align: left;
     width: 260px;
     margin-left: 110px;
-    margin-top: 30px;
+    margin-top: 25px;
     padding: 0;
     font-size: 25px;
 }
 
-#research em{
+.location{
     float: right;
 }
 
-#project em{
+.time{
     float: right;
+}
+
+ul {
+    padding-left: 18spx;
 }
